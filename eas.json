@@ -1,0 +1,33 @@
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk",
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease",
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
+      }
+    },
+    "preview3": {
+      "developmentClient": true,
+      "android": {
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
+      }
+    },
+    "preview4": {
+      "distribution": "internal",
+      "android": {
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
+      }
+    },
+    "production": {
+      "android": {
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
+      }
+    }
+  }
+}

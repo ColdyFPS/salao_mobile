@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "mobile-trabalho",
+    "name": "Studio Kellen",
     "slug": "snack-dca039ea-e0c3-4918-a403-c71845ac6fb1",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,12 +13,20 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.coldy.snackdca039eae0c34918a403c71845ac6fb1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.coldy.snackdca039eae0c34918a403c71845ac6fb1",
+      "buildProperties": {
+        "jdkVersion": 17
       }
     },
     "web": {
@@ -28,6 +36,9 @@
       "eas": {
         "projectId": "d204c20b-7c03-4b24-af7f-5f13812489b4"
       }
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
